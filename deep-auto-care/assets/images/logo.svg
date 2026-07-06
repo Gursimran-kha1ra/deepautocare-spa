@@ -1,0 +1,5 @@
+<svg width="220" height="48" viewBox="0 0 220 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Apex Auto Care logo">
+  <rect x="0" y="4" width="40" height="40" rx="11" fill="#0E1116"/>
+  <path d="M27.5 16.5a6 6 0 0 0-8 7l-7 7 3 3 7-7a6 6 0 0 0 8-7l-3.6 3.6-3.1-.5-.5-3.1z" fill="#FF6A2C"/>
+  <text x="50" y="31" font-family="Sora, Arial, sans-serif" font-size="20" font-weight="800" fill="#0E1116" letter-spacing="-0.5">Apex<tspan fill="#FF6A2C">Auto</tspan></text>
+</svg>

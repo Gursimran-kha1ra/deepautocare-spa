@@ -1,0 +1,300 @@
+{
+  "_comment": "EDIT THIS FILE ONLY to rebrand the entire website for a new client. Every page reads from here. See docs/CUSTOMIZATION.md.",
+
+  "business": {
+    "name": "Deep Auto Care",
+    "tagline": "Dealership-quality repairs without the dealership price",
+    "shortName": "Deep",
+    "legalName": "Deep Auto Care Ltd.",
+    "foundedYear": 2008,
+    "logo": "assets/images/logo.svg",
+    "logoLight": "assets/images/logo-light.svg",
+    "favicon": "assets/images/favicon.svg",
+    "phone": "+16045550123",
+    "phoneDisplay": "(604) 555-0123",
+    "sms": "+16045550123",
+    "whatsapp": {
+      "enabled": true,
+      "number": "+16045550123",
+      "presetMessage": "Hi Deep Auto Care, I'd like to book a service."
+    },
+    "email": "service@deepautocare.ca",
+    "address": {
+      "street": "12840 Industrial Way, Unit 4",
+      "city": "Surrey",
+      "region": "BC",
+      "postalCode": "V3W 5K9",
+      "country": "Canada",
+      "countryCode": "CA"
+    },
+    "geo": { "lat": 49.1351, "lng": -122.8716 },
+    "mapsEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10417.9!2d-122.8716!3d49.1351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDnCsDA4JzA2LjQiTiAxMjLCsDUyJzE3LjgiVw!5e0!3m2!1sen!2sca!4v1700000000000",
+    "mapsLink": "https://maps.google.com/?q=Deep+Auto+Care+Surrey+BC",
+    "hours": [
+      { "day": "Monday", "open": "07:30", "close": "18:00" },
+      { "day": "Tuesday", "open": "07:30", "close": "18:00" },
+      { "day": "Wednesday", "open": "07:30", "close": "18:00" },
+      { "day": "Thursday", "open": "07:30", "close": "18:00" },
+      { "day": "Friday", "open": "07:30", "close": "18:00" },
+      { "day": "Saturday", "open": "08:00", "close": "16:00" },
+      { "day": "Sunday", "open": null, "close": null }
+    ],
+    "emergency247": true,
+    "licenses": [
+      { "label": "AARMA Certified Shop", "number": "BC-AAR-44821" },
+      { "label": "Red Seal Technicians", "number": "On staff" }
+    ]
+  },
+
+  "theme": {
+    "primary": "#0E1116",
+    "secondary": "#2563EB",
+    "accent": "#FF6A2C",
+    "emergency": "#E11D2A",
+    "surface": "#14181F",
+    "ink": "#0E1116",
+    "muted": "#5B6675",
+    "radius": "20px"
+  },
+
+  "stats": [
+    { "value": "16", "suffix": "+", "label": "Years in business" },
+    { "value": "38", "suffix": "K", "label": "Vehicles serviced" },
+    { "value": "4.9", "suffix": "", "label": "Average Google rating" },
+    { "value": "12", "suffix": "mo", "label": "Repair warranty" }
+  ],
+
+  "trustBadges": [
+    "ASE-Style Certified Techs",
+    "12-Month / 20,000 km Warranty",
+    "Free Digital Inspection",
+    "Same-Day Service Available",
+    "All Makes & Models"
+  ],
+
+  "hero": {
+    "image": "assets/images/hero.jpg",
+    "imageWebp": "assets/images/hero.webp",
+    "headline": "Your car, handled by people who actually care.",
+    "subheadline": "Honest diagnostics, factory-grade parts, and a written warranty on every job. Book online in 60 seconds or call and talk to a real technician.",
+    "kicker": "Surrey's most-reviewed independent auto shop"
+  },
+
+  "review": {
+    "rating": 4.9,
+    "count": 612,
+    "platform": "Google",
+    "url": "https://maps.google.com/?q=Deep+Auto+Care+Surrey+BC"
+  },
+
+  "services": [
+    {
+      "id": "oil-change",
+      "name": "Oil & Filter Change",
+      "icon": "droplet",
+      "image": "assets/images/services/oil-change.jpg",
+      "short": "Synthetic and conventional oil changes with a complimentary multi-point inspection.",
+      "description": "We use manufacturer-spec synthetic blends and OEM-grade filters, then run a free 30-point digital inspection so you leave knowing exactly where your vehicle stands.",
+      "benefits": ["Manufacturer-spec oil", "Free 30-point inspection", "In and out in under 45 minutes"],
+      "priceFrom": 69,
+      "featured": true
+    },
+    {
+      "id": "brake-repair",
+      "name": "Brake Repair",
+      "icon": "disc",
+      "image": "assets/images/services/brakes.jpg",
+      "short": "Pads, rotors, calipers and brake fluid service for safe, quiet stopping.",
+      "description": "Squealing or soft pedal? We measure pad and rotor wear on a calibrated gauge, show you the readings, and only replace what's actually worn. Premium pads come with a lifetime warranty.",
+      "benefits": ["Lifetime-warranty pads available", "Calibrated wear measurement", "Quiet, dust-free options"],
+      "priceFrom": 189,
+      "featured": true
+    },
+    {
+      "id": "transmission",
+      "name": "Transmission Service",
+      "icon": "gear",
+      "image": "assets/images/services/transmission.jpg",
+      "short": "Fluid flushes, diagnostics and rebuilds for automatic and manual transmissions.",
+      "description": "Rough shifting or slipping gears caught early can save thousands. We diagnose with factory scan tools and recommend the least-invasive fix that solves the problem for good.",
+      "benefits": ["Factory scan-tool diagnostics", "Fluid exchange & filter service", "Rebuild & replacement options"],
+      "priceFrom": 149,
+      "featured": true
+    },
+    {
+      "id": "engine-diagnostics",
+      "name": "Engine Diagnostics",
+      "icon": "activity",
+      "image": "assets/images/services/diagnostics.jpg",
+      "short": "Check-engine light? We pinpoint the real cause, not just the code.",
+      "description": "A trouble code is a starting point, not an answer. Our technicians trace the root cause with live data and pressure testing so you don't pay to replace parts that aren't broken.",
+      "benefits": ["Live data analysis", "Root-cause diagnosis", "Written estimate before any work"],
+      "priceFrom": 119,
+      "featured": true
+    },
+    {
+      "id": "battery",
+      "name": "Battery & Electrical",
+      "icon": "battery",
+      "image": "assets/images/services/battery.jpg",
+      "short": "Testing, replacement and electrical fault-finding for hard starts and dead batteries.",
+      "description": "We load-test your battery, alternator and starter together so you replace the part that's actually failing. Most batteries installed same day with disposal included.",
+      "benefits": ["Free charging-system test", "Same-day installation", "Old battery recycled free"],
+      "priceFrom": 89,
+      "featured": false
+    },
+    {
+      "id": "suspension",
+      "name": "Suspension & Steering",
+      "icon": "wave",
+      "image": "assets/images/services/suspension.jpg",
+      "short": "Shocks, struts, control arms and steering components for a smooth, safe ride.",
+      "description": "Clunks, drifting or uneven tire wear usually trace back to worn suspension. We inspect the full system on the hoist and show you every component before recommending repairs.",
+      "benefits": ["Full system inspection", "OEM-quality components", "Ride-quality guarantee"],
+      "priceFrom": 159,
+      "featured": false
+    },
+    {
+      "id": "alignment",
+      "name": "Wheel Alignment",
+      "icon": "target",
+      "image": "assets/images/services/alignment.jpg",
+      "short": "Precision laser alignment to extend tire life and fix pulling.",
+      "description": "Our laser-guided alignment rack sets camber, caster and toe to factory spec. You get a printed before-and-after report every time.",
+      "benefits": ["Laser-guided precision", "Printed before/after report", "Extends tire life"],
+      "priceFrom": 99,
+      "featured": false
+    },
+    {
+      "id": "ac-repair",
+      "name": "Air Conditioning Repair",
+      "icon": "snow",
+      "image": "assets/images/services/ac.jpg",
+      "short": "A/C recharge, leak detection and compressor service to keep you cool.",
+      "description": "Blowing warm? We pressure-test the system, find leaks with UV dye, and recharge to spec using modern refrigerants. No guesswork, no top-ups that vanish in a week.",
+      "benefits": ["UV leak detection", "Spec-correct recharge", "Cabin filter check included"],
+      "priceFrom": 129,
+      "featured": false
+    },
+    {
+      "id": "tires",
+      "name": "Tires & Seasonal Swaps",
+      "icon": "circle",
+      "image": "assets/images/services/tires.jpg",
+      "short": "Sales, mounting, balancing and seasonal storage for every season.",
+      "description": "All-season, winter and performance tires from major brands, mounted and road-force balanced. Ask about our off-season tire storage so your garage stays clear.",
+      "benefits": ["Road-force balancing", "Seasonal storage available", "Price-match on major brands"],
+      "priceFrom": 35,
+      "featured": false
+    },
+    {
+      "id": "fleet",
+      "name": "Fleet Maintenance",
+      "icon": "truck",
+      "image": "assets/images/services/fleet.jpg",
+      "short": "Priority scheduling and consolidated billing for business fleets.",
+      "description": "Keep your vehicles earning. Fleet accounts get priority bays, preventative-maintenance tracking and one monthly invoice across your whole fleet.",
+      "benefits": ["Priority scheduling", "Preventative tracking", "Consolidated monthly billing"],
+      "priceFrom": null,
+      "featured": false
+    },
+    {
+      "id": "roadside",
+      "name": "Roadside Assistance",
+      "icon": "alert",
+      "image": "assets/images/services/roadside.jpg",
+      "short": "24/7 jump-starts, lockouts and towing back to our shop.",
+      "description": "Stuck on the side of the road? Our 24/7 line gets you a jump, a tow or a lockout rescue, and we'll bring the vehicle back to the shop for repair if needed.",
+      "benefits": ["24/7 dispatch", "Tow direct to our shop", "Lockout & jump-start"],
+      "priceFrom": null,
+      "featured": true
+    }
+  ],
+
+  "whyChooseUs": [
+    { "icon": "shield", "title": "Written warranty on everything", "text": "Every repair is backed by a 12-month / 20,000 km warranty, in writing, no fine-print surprises." },
+    { "icon": "eye", "title": "You see what we see", "text": "Free digital inspections with photos sent to your phone. We never recommend work we can't show you." },
+    { "icon": "tag", "title": "Up-front pricing", "text": "You approve a written estimate before we touch the car. No mystery charges at pickup." },
+    { "icon": "clock", "title": "Respect for your time", "text": "Same-day service on most jobs, free local shuttle, and loaner cars for bigger repairs." },
+    { "icon": "wrench", "title": "Factory-grade everything", "text": "OEM and OEM-equivalent parts and factory scan tools, so your warranty stays intact." },
+    { "icon": "heart", "title": "Independent & local", "text": "Family-owned since 2008. You talk to the technician working on your car, not a call centre." }
+  ],
+
+  "gallery": {
+    "categories": ["All", "Shop", "Engine", "Brakes", "Bodywork", "Before & After"],
+    "images": [
+      { "src": "assets/images/gallery/shop-1.jpg", "category": "Shop", "alt": "Clean, modern service bay with vehicle on hoist" },
+      { "src": "assets/images/gallery/engine-1.jpg", "category": "Engine", "alt": "Technician performing engine diagnostics" },
+      { "src": "assets/images/gallery/brakes-1.jpg", "category": "Brakes", "alt": "New brake rotors and pads installed" },
+      { "src": "assets/images/gallery/body-1.jpg", "category": "Bodywork", "alt": "Panel refinishing in detail bay" },
+      { "src": "assets/images/gallery/shop-2.jpg", "category": "Shop", "alt": "Reception and waiting lounge" },
+      { "src": "assets/images/gallery/engine-2.jpg", "category": "Engine", "alt": "Timing belt replacement in progress" },
+      { "src": "assets/images/gallery/ba-1.jpg", "category": "Before & After", "alt": "Corroded brake caliper restored", "before": "assets/images/gallery/ba-1-before.jpg", "after": "assets/images/gallery/ba-1-after.jpg" },
+      { "src": "assets/images/gallery/ba-2.jpg", "category": "Before & After", "alt": "Engine bay detail before and after", "before": "assets/images/gallery/ba-2-before.jpg", "after": "assets/images/gallery/ba-2-after.jpg" },
+      { "src": "assets/images/gallery/brakes-2.jpg", "category": "Brakes", "alt": "Brake fluid service" },
+      { "src": "assets/images/gallery/shop-3.jpg", "category": "Shop", "alt": "Alignment rack in operation" },
+      { "src": "assets/images/gallery/engine-3.jpg", "category": "Engine", "alt": "Spark plug replacement" },
+      { "src": "assets/images/gallery/body-2.jpg", "category": "Bodywork", "alt": "Headlight restoration" }
+    ]
+  },
+
+  "beforeAfter": [
+    { "title": "Brake caliper restoration", "before": "assets/images/gallery/ba-1-before.jpg", "after": "assets/images/gallery/ba-1-after.jpg", "alt": "Seized, corroded caliper rebuilt to like-new" },
+    { "title": "Engine bay detail", "before": "assets/images/gallery/ba-2-before.jpg", "after": "assets/images/gallery/ba-2-after.jpg", "alt": "Grimy engine bay cleaned and inspected" },
+    { "title": "Headlight restoration", "before": "assets/images/gallery/ba-3-before.jpg", "after": "assets/images/gallery/ba-3-after.jpg", "alt": "Cloudy headlights restored to clear" }
+  ],
+
+  "reviews": [
+    { "name": "Priya Sandhu", "rating": 5, "date": "2025-04-18", "vehicle": "2019 Honda CR-V", "text": "They sent me photos of my worn brakes before doing anything and the price matched the estimate to the dollar. First shop I actually trust." },
+    { "name": "Marcus Lee", "rating": 5, "date": "2025-03-29", "vehicle": "2015 Ford F-150", "text": "Check-engine light had me terrified it was the transmission. Turned out to be a $40 sensor. Any other shop would've upsold me. Customers for life." },
+    { "name": "Danielle Roy", "rating": 5, "date": "2025-03-11", "vehicle": "2021 Mazda 3", "text": "Booked online Sunday night, dropped off Monday morning, had my car back by lunch with a free shuttle ride to work. Effortless." },
+    { "name": "Tom Whitaker", "rating": 4, "date": "2025-02-22", "vehicle": "2012 BMW 328i", "text": "Fair pricing on a European car, which is rare. Took an extra day waiting on a part but they kept me updated the whole time." },
+    { "name": "Aisha Khan", "rating": 5, "date": "2025-02-05", "vehicle": "2018 Toyota Corolla", "text": "The digital inspection report is a game changer. Photos of everything, clear explanations, zero pressure. My dad's been going here for years and now I get why." },
+    { "name": "Greg Boucher", "rating": 5, "date": "2025-01-19", "vehicle": "2009 Jeep Wrangler", "text": "Roadside team jump-started me at 11pm and towed me in. Had me back on the road the next morning. Lifesavers." }
+  ],
+
+  "faqs": [
+    { "q": "Do you work on all makes and models?", "a": "Yes. Our technicians are trained across domestic, European and Asian brands, and we use factory-level scan tools so your manufacturer warranty stays intact." },
+    { "q": "Will servicing here void my new-car warranty?", "a": "No. Canadian law lets you service your vehicle at any licensed shop without voiding the manufacturer warranty, as long as factory-spec parts and procedures are used, which is exactly what we do." },
+    { "q": "Do I need an appointment?", "a": "Appointments get you priority and a guaranteed bay, and you can book online in about a minute. We also accept walk-ins for quick jobs like oil changes and battery tests when bays are open." },
+    { "q": "How does your warranty work?", "a": "Every repair is covered for 12 months or 20,000 km, whichever comes first, in writing. If a covered repair fails, we make it right at no charge." },
+    { "q": "Can I get a quote before any work is done?", "a": "Always. We provide a written estimate and require your approval before starting. If we find something extra during the job, we call you first." },
+    { "q": "Do you offer financing?", "a": "Yes, we partner with a financing provider for larger repairs so you can split the cost into manageable payments. Ask us for details at drop-off." },
+    { "q": "Do you provide a shuttle or loaner car?", "a": "We offer a free local shuttle, and loaner vehicles are available for repairs that keep your car overnight, subject to availability." }
+  ],
+
+  "social": [
+    { "platform": "facebook", "url": "https://facebook.com/", "label": "Facebook" },
+    { "platform": "instagram", "url": "https://instagram.com/", "label": "Instagram" },
+    { "platform": "google", "url": "https://maps.google.com/", "label": "Google Business" },
+    { "platform": "youtube", "url": "https://youtube.com/", "label": "YouTube" }
+  ],
+
+  "serviceAreas": [
+    { "city": "Surrey", "slug": "surrey", "primary": true, "neighbourhoods": ["Newton", "Guildford", "Fleetwood", "Cloverdale", "South Surrey"] },
+    { "city": "Langley", "slug": "langley", "primary": false, "neighbourhoods": ["Willoughby", "Walnut Grove", "Brookswood", "Fort Langley"] },
+    { "city": "Delta", "slug": "delta", "primary": false, "neighbourhoods": ["North Delta", "Ladner", "Tsawwassen"] },
+    { "city": "White Rock", "slug": "white-rock", "primary": false, "neighbourhoods": ["East Beach", "West Beach"] },
+    { "city": "Burnaby", "slug": "burnaby", "primary": false, "neighbourhoods": ["Metrotown", "Brentwood", "Lougheed"] },
+    { "city": "Richmond", "slug": "richmond", "primary": false, "neighbourhoods": ["Steveston", "Brighouse", "Hamilton"] },
+    { "city": "Vancouver", "slug": "vancouver", "primary": false, "neighbourhoods": ["Marpole", "Kerrisdale", "Mount Pleasant"] }
+  ],
+
+  "booking": {
+    "services": ["Oil & Filter Change", "Brake Repair", "Engine Diagnostics", "Transmission Service", "Battery & Electrical", "Suspension & Steering", "Wheel Alignment", "A/C Repair", "Tires", "Other / Not sure"],
+    "times": ["Morning (8am-11am)", "Midday (11am-2pm)", "Afternoon (2pm-5pm)"],
+    "endpoint": "",
+    "successMessage": "Thanks! Your request is in. We'll text or call you within one business hour to confirm your appointment."
+  },
+
+  "seo": {
+    "siteUrl": "https://www.deepautocare.ca",
+    "defaultTitle": "Deep Auto Care | Trusted Auto Repair in Surrey, BC",
+    "titleTemplate": "%s | Deep Auto Care",
+    "defaultDescription": "Honest, warrantied auto repair in Surrey, BC. ASE-style certified technicians, free digital inspections and up-front pricing. Book online or call (604) 555-0123.",
+    "keywords": ["auto repair Surrey", "mechanic Surrey BC", "brake repair Surrey", "oil change Surrey", "car diagnostics Surrey", "transmission repair Surrey"],
+    "ogImage": "assets/images/og-image.jpg",
+    "twitterHandle": "",
+    "locale": "en_CA"
+  }
+}
